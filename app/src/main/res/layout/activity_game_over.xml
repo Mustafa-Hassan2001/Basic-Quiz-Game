@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/themeBackGroundColor"
+    tools:context=".GameOver">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="300dp"
+            android:layout_height="328dp"
+            app:srcCompat="@drawable/gameover" />
+
+        <TextView
+            android:id="@+id/gameOvertxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/uiTextColor"
+            android:text="@string/gameOverPageTitle"
+            android:textSize="36sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="34dp" />
+
+        <TextView
+            android:id="@+id/trueAnswersGameOver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/uiTextColor"
+            android:text="@string/questionCount"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/scoreTxtGameOver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/uiTextColor"
+            android:text="@string/scoreCount"
+            android:textSize="28sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <TextView
+            android:id="@+id/btnBackMenuGameOver"
+            android:layout_width="263dp"
+            android:layout_height="61dp"
+            android:background="@color/ButtonBGColor"
+            android:gravity="center"
+            android:text="@string/backToLogin"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/buttonTextSize" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <TextView
+            android:id="@+id/btnQuitGameOver"
+            android:layout_width="263dp"
+            android:layout_height="53dp"
+            android:background="@color/ButtonBGColor"
+            android:gravity="center"
+            android:text="@string/quit"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/buttonTextSize" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">HR190023_SalihSelimSekerci</string>
+
+
+    <string name="welcomeText">Hoşgeldin,\n</string>
+
+    <string name="techBtn">Teknoloji</string>
+    <string name="histBtn">Tarih</string>
+    <string name="geogBtn">Coğrafya</string>
+
+    <string name="nextBtn">İleri</string>
+
+    <string name="backToLogin">Anasayfaya Dön</string>
+    <string name="quit">Çıkış</string>
+
+    <string name="congPageTitle">Tebrikler</string>
+    <string name="gameOverPageTitle">Oyun Bitti</string>
+
+    <string name="questionCount">Soru : </string>
+    <string name="scoreCount">Puan : </string>
+
+
+    <integer name="TeknolojiSoruAdedi">3</integer>
+    <string name="Teknoloji1">Steve jobs kimdir?</string>
+    <string name="Teknoloji11">Facebook kurucusu</string>
+    <string name="Teknoloji12">Microsoft kurucusu</string>
+    <string name="Teknoloji13">Apple kurucusu</string>
+
+    <string name="Teknoloji2">İnternet ilk olarak ne amaçla kullanılmıştır?</string>
+    <string name="Teknoloji21">Oyun</string>
+    <string name="Teknoloji22">Bilişim</string>
+    <string name="Teknoloji23">Askeri</string>
+
+    <string name="Teknoloji3">Aşağıdaki internet uzantılarından hangisi eğitim kurumunu ifade eder?</string>
+    <string name="Teknoloji31">.gov</string>
+    <string name="Teknoloji32">.org</string>
+    <string name="Teknoloji33">.edu</string>
+
+    <integer name="TarihSoruAdedi">3</integer>
+    <string name="Tarih1">İstanbulu kim fethetmiştir?</string>
+    <string name="Tarih11">II.Bayezid</string>
+    <string name="Tarih12">Osman gazi</string>
+    <string name="Tarih13">Fatih Sultan Mehmet</string>
+
+    <string name="Tarih2">Mustafa Kemal Atatürkün Samsuna çıktığı geminin adı nedir?</string>
+    <string name="Tarih21">Dentur Avrasya</string>
+    <string name="Tarih22">Bismarck</string>
+    <string name="Tarih23">Bandırma Vapuru</string>
+
+    <string name="Tarih3">Osmanlının kurucusu kimdir?</string>
+    <string name="Tarih31">II.Selim</string>
+    <string name="Tarih32">Orhan Gazi</string>
+    <string name="Tarih33">Osman Gazi</string>
+
+    <integer name="CoğrafyaSoruAdedi">3</integer>
+    <string name="Coğrafya1">Akdenizin bitki örtüsü nedir?</string>
+    <string name="Coğrafya11">Bozkır</string>
+    <string name="Coğrafya12">Tundra</string>
+    <string name="Coğrafya13">Maki</string>
+
+    <string name="Coğrafya2">Yüzölçüm olarak en küçük ilimiz hangisidir?</string>
+    <string name="Coğrafya21">Düzce</string>
+    <string name="Coğrafya22">Kilis</string>
+    <string name="Coğrafya23">Yalova</string>
+
+    <string name="Coğrafya3">Hangisi coğrafi bir terim değildir?</string>
+    <string name="Coğrafya31">Drenaj</string>
+    <string name="Coğrafya32">Debi</string>
+    <string name="Coğrafya33">Momentum</string>
+
+
+</resources>

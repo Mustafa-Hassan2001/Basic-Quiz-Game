@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="buttonTextSize">32dp</dimen>
+    <dimen name="answerButtonTextSize">28dp</dimen>
+    <dimen name="buttonWidth">263dp</dimen>
+    <dimen name="buttonHeight">61dp</dimen>
+    <dimen name="titleTextSize">36dp</dimen>
+    <dimen name="questionTextSize">36dp</dimen>
+    <dimen name="scoreAndQuestionTextSize">22dp</dimen>
+    <dimen name="welcomeTextSize">22dp</dimen>
+
+</resources>

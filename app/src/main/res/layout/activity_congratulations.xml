@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/confetti"
+    tools:context=".Congratulations">
+
+    <LinearLayout
+        android:layout_width="311dp"
+        android:layout_height="397dp"
+        android:layout_marginTop="253dp"
+        android:layout_marginBottom="81dp"
+        android:background="#A1FFFFFF"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="13dp" />
+
+        <TextView
+            android:id="@+id/tbrkTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/congPageTitle"
+            android:textColor="@color/uiTextColor"
+            android:textSize="36sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="33dp" />
+
+        <TextView
+            android:id="@+id/trueAnswersCong"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:gravity="center"
+            android:text="@string/questionCount"
+            android:textColor="@color/uiTextColor"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/txtScoreCongratulations"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:gravity="center"
+            android:text="@string/scoreCount"
+            android:textColor="@color/uiTextColor"
+            android:textSize="28sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="34dp" />
+
+        <TextView
+            android:id="@+id/btnBackMenuCongratulations"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:background="@color/ButtonBGColor"
+            android:gravity="center"
+            android:text="@string/backToLogin"
+            android:textColor="@color/white"
+            android:textSize="@dimen/buttonTextSize" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="19dp" />
+
+        <TextView
+            android:id="@+id/btnQuitCongratulations"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:background="@color/ButtonBGColor"
+            android:gravity="center"
+            android:text="@string/quit"
+            android:textColor="@color/white"
+            android:textSize="@dimen/buttonTextSize" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
